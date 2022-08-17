@@ -13,7 +13,7 @@ The capstone will build upon the knowledge you have gained in the course in orde
 * [Docker](https://docs.docker.com/install/)
 * [ZoKrates](https://github.com/Zokrates/ZoKrates)
 
-#ENVIRONMENT 
+# ENVIRONMENT 
 Truffle v5.5.24 (core: 5.5.24)
 Ganache v7.4.0
 Solidity v0.5.16 (solc-js)
@@ -21,7 +21,7 @@ Node v16.16.0
 Web3.js v1.7.4
 
 
-#TEST
+# RUN TEST STEP
 cd eth-contracts
 truffle develop
 truffle test
