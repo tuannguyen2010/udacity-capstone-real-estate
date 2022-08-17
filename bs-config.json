@@ -1,0 +1,6 @@
+{
+    "server": {
+      "files": ["./src/**/*.{html,htm,css,js}"],
+      "baseDir": ["./","./src", "./eth-contracts/build/contracts"]
+    }
+  }

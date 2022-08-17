@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Mint NFT</h1>
+        <hr>
+        <p style="text-align: center;">zokrates to verify</p>
+    </div>
+
+    <div id="ftc-harvest">
+        <h2>Product Overview</h2>
+        <div class="form-group">
+            TO
+            <br>
+            <input class="input-field" type="number" id="to" name="to"><br>
+            Token ID
+            <br>
+            <input type="number" id="tokenId" name="tokenId" value=1><br>
+            Input
+            <br>
+            <input type="text" id="input1" name="input1" ><br>
+            <input type="text" id="input2" name="input2"><br>
+            <div class=button-div>
+                <button class="btn-fetchOne" id="add" type="button" data-id="9">Add solution</button>
+                <button class="btn-fetchTwo" id="mint" type="button" data-id="10">Mint</button>
+            </div>
+        </div>
+    </div>
+
+    <h2>Transaction History<span id="ftc-history"></span></h2>
+    <div>
+        <ul id="ftc-events">
+            <!-- Events will appear here from app.js -->
+        </ul>
+        <br>
+        <hr>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="js/web3.min.js"></script> -->
+    <script src="node_modules/web3/dist/web3.min.js"></script>
+    <!-- <script src="js/truffle-contract.js"></script> -->
+    <script src="node_modules/truffle-contract/dist/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
