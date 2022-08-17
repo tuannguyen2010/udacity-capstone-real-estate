@@ -13,6 +13,20 @@ The capstone will build upon the knowledge you have gained in the course in orde
 * [Docker](https://docs.docker.com/install/)
 * [ZoKrates](https://github.com/Zokrates/ZoKrates)
 
+#ENVIRONMENT 
+Truffle v5.5.24 (core: 5.5.24)
+Ganache v7.4.0
+Solidity v0.5.16 (solc-js)
+Node v16.16.0
+Web3.js v1.7.4
+
+
+#TEST
+cd eth-contracts
+truffle develop
+truffle test
+
+
 # DEPLOYMENT
 1_initial_migration.js
 ======================
@@ -38,3 +52,10 @@ https://testnets.opensea.io/assets/rinkeby/0xe2817ad218311b6c936299de286824627c7
 https://testnets.opensea.io/assets/rinkeby/0xe2817ad218311b6c936299de286824627c7cc6e0/3
 https://testnets.opensea.io/assets/rinkeby/0xe2817ad218311b6c936299de286824627c7cc6e0/4
 https://testnets.opensea.io/assets/rinkeby/0xe2817ad218311b6c936299de286824627c7cc6e0/5
+
+# TOKENS ADDRESS
+https://rinkeby.etherscan.io/token/0xe2817ad218311b6c936299de286824627c7cc6e0
+
+# OpenSea MarketPlace StoreFront ERC721
+https://testnets.opensea.io/collection/udacity-learning-capstone
+https://testnets.opensea.io/0xa5e0160637D26F044A27e2e5a653F899c9f1d188
